@@ -1,0 +1,17 @@
+name: node-exporter-2host
+summary: Prometheus node exporter
+maintainer: Herciu Alexandru <alexandru.herciu@gmail.com>
+description: |
+  Deploy node exporter directly to an instance
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - prometheus
+subordinate: false
+provides:
+  scrape:
+    interface: prometheus
+requires:
+  juju-info:
+    interface: juju-info
+
