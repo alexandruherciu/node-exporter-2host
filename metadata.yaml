@@ -1,4 +1,5 @@
 name: node-exporter-2host
+display-name: node-exporter-2host
 summary: Prometheus node exporter
 maintainer: Herciu Alexandru <alexandru.herciu@gmail.com>
 description: |
@@ -7,6 +8,8 @@ tags:
   # Replace "misc" with one or more whitelisted tags from this list:
   # https://jujucharms.com/docs/stable/authors-charm-metadata
   - prometheus
+series:
+  - "bionic"
 subordinate: false
 provides:
   scrape:
@@ -14,4 +17,3 @@ provides:
 requires:
   juju-info:
     interface: juju-info
-
