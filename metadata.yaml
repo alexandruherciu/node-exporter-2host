@@ -1,7 +1,7 @@
 name: node-exporter-2host
 display-name: node-exporter-2host
 summary: Prometheus node exporter
-maintainer: Herciu Alexandru <alexandru.herciu@gmail.com>
+maintainer: Atos <dpcop@agea.local>
 description: |
   Deploy node exporter directly to an instance
 tags: ["misc"]
