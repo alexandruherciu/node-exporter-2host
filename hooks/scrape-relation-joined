@@ -1,2 +1,2 @@
 #!/bin/sh
-relation-set hostname=`unit-get private-address` port=9100
+relation-set hostname=`unit-get private-address` port=9100 metrics_path="/metrics"
